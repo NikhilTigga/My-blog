@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("images/bannerimage.jpg");
+
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.fixenav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.topnav {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: green;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: aquamarine;
+    color: black;
+}
+hr {
+    background-color: #333;
+}
+
+
+/*foooter style */
+.logoo {
+    text-align: right;
+}
+.logoo a img {
+    width: 3%;
+    padding: 7px 6px;
+    margin: 20px 5px;
+}
+footer {
+    background-color: #333;
+
+
+}
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    color: #3cfbff;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.disclaimer,
+.copyright {
+    margin: 20px 134px;
+    color: #e4a11f;
+    text-align: center;
+}
+
+/*foooter style */
