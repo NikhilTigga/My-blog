@@ -1,5 +1,5 @@
 # My-blog
-my BlogPost project using Express, Ejs, Node.js,and hthl.
+my BlogPost project using Bootstrap, html,css, js.
 #HOME PAGE
 ![screencapture-nikhiltigga-github-io-My-blog-2024-08-31-19_31_37](https://github.com/user-attachments/assets/17b39f12-74da-4550-b728-3f220cc227ba)
 #Contact Page
